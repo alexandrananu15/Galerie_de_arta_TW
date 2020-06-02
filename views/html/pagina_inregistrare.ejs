@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = "ro" >
+	<head>
+		<title> Galeria de arta La Fontaine </title>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.jpg"/>
+		<meta charset = "UTF-8">
+		<meta name = "author" content = "Alexandra Nanu">
+		<meta name = "description" content = " Galerie de arta moderna cu posibilitatea cumpararii tablourilor ">
+		<meta name = "keywords" content = "Klimt, Kandinsky, Dali, Magritte">
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/styledebaza.css"/>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+	<%- include('../fragmente/header') %>
+	
+		<main>
+			<section>
+                <form action="/inreg" method="POST">
+                    <div class="nume">
+                        <label for="input_nume">Nume</label>
+                        <br />
+                        <input type="text" name="nume" id="input_nume" />
+                    </div>
+                    <div class="username">
+                        <label for="input_username">Username</label>
+                        <br />
+                        <input type="text" name="username" id="input_username" />
+                    </div>
+                    <!-- <br> -->
+                    <div class="email">
+                        <label for="input_email">Email</label>
+                        <br />
+                        <input name="email" id="input_email" />
+                    </div>
+                    <div class="password">
+                        <label for="input_parola">Parola</label>
+                        <br />
+                        <input name="password" id="input_parola" />
+                    </div>
+                    <div class="artists">
+                        <label for="input_artists">Artisti preferati</label>
+                        <br />
+                        <input name="artisti_pref" id="input_artists" />
+                    </div>
+                    <button>Inregistrare</button>
+                </form>
+			</section>
+		</main>
+		<%- include('../fragmente/footer') %>
+	</body>
+</html>

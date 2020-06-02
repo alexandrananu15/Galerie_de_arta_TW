@@ -1,0 +1,84 @@
+
+body {
+	background-image:url(../poze/sculpt3.jpg);
+	background-size:cover;
+}
+
+.formular label, input
+{
+	max-width:90vw;
+}
+
+form {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    
+  }
+  form label{
+      color: blanchedalmond;
+      font-family: arial, sans-serif;
+      width: 40%;
+      text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  form input{
+    font-style: italic;
+    color: gray;
+    width: 30%;
+    text-align: justify;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
+    background-color: cornsilk;
+  }
+  form input:hover{
+      box-shadow: rgb(201, 140, 50) 0px 0px 8px;
+      transition: box-shadow 0.5s;
+  }
+  h3{
+      text-align: center;
+      color:antiquewhite
+  }
+ 
+  
+  @media screen and (max-width: 575.98px) {
+      form input{
+          width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+      }
+  }
+  
+footer {
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+	height:40vh;
+	background-color: #393c41;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+	background-color: #393c41;
+}
+
+
+footer img{
+	display:inline-block;
+	height:100%;
+}
+
+footer img:hover{
+	transition-duration:2s;
+}
+
+footer div{
+	height:24%;
+}
+
+footer div:hover{
+	transition-duration:2s;
+}

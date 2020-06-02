@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang = "ro" >
+	<head>
+		<title> Jurnal de calatorie </title>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.jpg"/>
+		<meta charset = "UTF-8">
+		<meta name = "author" content = "Ion Drumeteanu">
+		<meta name = "description" content = " Acesta este jurnalul de calatorie a lui Ion Drumeteanu cu postari pe blog incepand cu data de 21 februarie 2011 ">
+		<meta name = "keywords" content = "jurnal, calatorie, tren, popas, cabana">
+	</head>
+	<body>
+		<header>
+			<h1 id = "id1" > Jurnal de calatorie </h1>
+			<aside> Despre aventurile unui om care, dupa ce a fost concediat de la firma unde a lucrat peste 30 de ani, a hotarat ca e timpul sa abordeze viata diferit.
+			</aside>
+		</header>
+		<main>
+			<section>
+				<h2 id = "id2" > Despre mine </h2>
+				<p> Sunt un om simplu caruia ii plac calatoriile.
+					Ocazional fac si fotografii pe care le public pe Instagram.</p>
+			</section>
+			<section>
+				<h2 id = "id3" > Curpins </h2>
+				<ol>
+					<li> <a href="#id1"> Jurnal de calatorie </a> </li> 
+					<li> <a href="#id2"> Despre mine </a> </li>
+					<li> <a href="#id3"> Cuprins </a> </li>
+					<li> <a href="#id4"> Blog </a>
+						<ol> 
+							<li> <a href="#id5"> Prima zi </a> </li>
+							<li> <a href="#id6"> Popasul Ilioara </a> </li>
+							<li> <a href="#id7"> Ultima zi </a> </li>
+						</ol>
+					</li>
+				</ol>
+				<h2 id = "id4" > Blog </h2>
+				<section>
+					<h3 id = "id5" > <time datetime = "2011-02-21"> 21.02.2011 </time> <br/> Prima zi </h3>
+					<p> Data <time datetime = "2011-02-21"> 21.02.2011 7:00 </time> </p>
+					<p> Azi e prima zi. Am ajuns cu trenul in <b> satul Crangaveni </b>. Am verificat rucsacul, n-am uitat nimic. Ma voi urca pe munte pentru prima oara. </p>
+					<p> Un satean <em> binevoitor </em> mi-a spus ca dupa ce strabat drumul vreo 5 ore, pot dormi la <b> popasul Ilioara </b> intr-o cabanuta de pe marginea drumului. </p>
+				</section>
+				<section>
+					<h3 id = "id6" > <time datetime = "2011-02-22"> 22.02.2011 </time> <br/> Popasul Ilioara </h3>
+					<p> Data <time datetime = "2011-02-22"> 22.02.2011 7:00 </time> </p>
+					<p> Am ajuns la popasul Ilioara. Cabana era in paragina. Am decis totusi sa dorm aici. Pe timpul noptii insa m-am trezit cu sateanul binevoitor inarmat cu o pusca, cerandu-mi sa-i dau rucsacul si tot ce mai aveam. I-am dat rucsacul, dar cand a incercat sa-l ridice, am reusit sa-i iau repede pusca. Omul pe loc a recunoscut ca rucsacul e prea greu si mi l-a oferit inapoi, pe urma mi-a dat binete si a plecat grabit la ale lui. </p>
+				</section>
+				<section>
+					<h3 id = "id7" > <time datetime = "2011-02-23"> 23.02.2011 </time> <br/> Ultima zi </h3>
+					<p> Data <time datetime = "2011-02-23"> 23.02.2011 7:00 </time> </p>
+					<p> Mergand pe drum mai departe am auzit un strigat dintr-o prapastie. Coborand acolo, am dat peste un om murdar, infometat, abia <u> miscanduse</u>. Cand am ajuns mai aproape de el am vazut cu stupoare ca era chiar fostul meu sef, plecat intr-o tabara de serviciu. Pare-se ca si el il cunoscuse pe sateanul cel binevoitor, in urma cu vreo 4 zile, cand a pornit ca si mine intr-o drumetie pe munte. L-am ajutat sa ajunga la centrul medical cel mai apropiat. Mi-a multumit si mi-a oferit postul inapoi, asa ca s-a cam terminat cu calatoriile. </p>
+					<figure>
+						<img src = "Journey.jpg" alt = "drumul vietii" title = "calatorie relaxanta" height = "250" width = "450"  >
+						<figcaption> Calatoria lui Ion </figcaption>
+					</figure>
+					<img src = "MyJourney.jpg" alt = "sursa inexistenta" title = "calatorie inexistenta">
+					<!-- apare atat o iconita cu un "x" pentru imagine, cat si descrierea din alt, adica textul alternativ -->
+				</section>
+			</section>
+		</main>
+	<footer>
+		<p> Acest jurnal este scris de Ion Drumeteanu, fost sub-secretar la firma <abbr title="Ala-Bala-Cip-Dumdum"> ABCD</abbr>, fost calator, actual secretar-sef la firma <abbr title="Ala-Bala-Cip-Dumdum"> ABCD</abbr>.
+			<br/> E-mail-uri: </p>
+		<ul>
+			<li> <a href=mailto:ion.drumet@abcd.ro> ion.drumet@abcd.ro </a> </li>
+			<li> <a href=mailto:i.drumeteanu@gmail.com> i.drumeteanu@gmail.com </a> </li>
+			<li> <a href=mailto:wanderer275_COD@yahoo.com> wanderer275_COD@yahoo.com </a> </li>
+		</ul>
+		<p> <small> Catre inceputul documentului </small> <a href="#"> Jurnal de calatorie </a> </p>
+	</footer>
+	</body>
+</html>

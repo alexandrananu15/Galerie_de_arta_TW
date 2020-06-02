@@ -1,0 +1,156 @@
+header 
+{
+	width:100%;
+	background-image:url(../poze/sculpt2.jpg);
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+main{
+	width:100%;
+	max-width:100vw;
+	overflow:hidden;
+}
+
+
+.containerTati {
+	width:100%;
+	height:auto;
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+	
+}
+
+.container {
+	/*
+	position:absolute;
+	max-height:50%;
+	right:15%;
+	top:35%;
+	*/
+	margin-right:10%;
+	margin-bottom:2%;
+	font-family: 'Roboto', sans-serif;
+    background: #fff;
+    box-shadow: 4px 4px 4px 0 rgba(0,0,0,0.5);
+    color: inherit;
+    border-radius: 1%;
+    padding: 1%;
+    max-width: 20vw;
+
+}
+
+.header-grid {
+	
+    border-bottom: 2px solid #b22143;
+    color: #b22143;
+    font-size: 1rem;
+    margin: 5%;
+}
+
+
+.gr {
+   display: grid; 
+   grid-template-columns: auto auto;
+}
+
+.gr figure {
+  height:50vh;
+  position: relative;
+  width: 85%;
+  box-sizing: border-box;
+  padding-left: 0px;
+  transition: all 1s linear;
+}
+
+.imageut {
+  height:100%;
+  display: block;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+
+.gr figure:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width:100%;
+}
+
+@media screen and (max-width: 800px) 
+{
+	
+  .gr{
+    grid-template-columns: auto;
+
+  }
+  .container{
+		color:white;
+		width:100%;
+		max-width:80vw;
+	}
+}
+ 
+
+@media screen and (max-width: 768px)
+{
+	.container{
+		color:white;
+		width:100%;
+		max-width:50vw;
+	}
+}
+
+footer {
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+	height:40vh;
+	background-color: #393c41;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+	background-color: #393c41;
+}
+
+
+footer img{
+	display:inline-block;
+	height:100%;
+}
+
+footer img:hover{
+	transition-duration:2s;
+}
+
+footer div{
+	height:24%;
+}
+
+footer div:hover{
+	transition-duration:2s;
+}

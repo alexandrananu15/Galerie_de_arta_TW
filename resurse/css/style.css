@@ -1,0 +1,213 @@
+html{
+	scroll-behavior:smooth;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+nav{
+    width:100%;
+}
+
+ul {
+	padding:0;
+}
+
+
+header 
+{
+	background-image:url(../poze/primapagina.jpg);
+	height: auto;
+	background-size: cover;
+	background-position: center;
+	margin:0;
+	border:0;
+}
+
+
+h1
+{
+	font-size:35px;
+	font-family:'Roboto', sans-serif;
+	text-align:center;
+	letter-spacing: -1px;
+	color:#FFF8DC;
+	
+}
+
+h1:hover
+{
+	transition-duration: 0.2s;
+	text-shadow: 5px 5px 5px #b22143;
+}
+
+.as {
+	text-align:justify;
+	color:#FFF8DC;
+	font-size: 1.1rem;
+}
+
+.containerTati {
+	width:100%;
+	height:auto;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:flex-end;
+}
+
+.container {
+	margin:5%;
+    background: #fff;
+    box-shadow: 4px 4px 4px 0 rgba(0,0,0,0.5);
+    color: inherit;
+    border-radius: 0.25rem;
+    padding:1%;
+    max-width: 20rem;
+}
+
+.header-grid {
+    border-bottom: 2px solid #b22143;
+    color: #b22143;
+    font-size: 1.1rem;
+    padding: 3%;
+}
+
+.body
+{
+	border:0;
+	margin:0;
+	padding:0;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../poze/galerie2.jpg);
+}
+
+.col
+{
+	column-count: 3;
+	column-gap: 40px;
+	column-rule-width: 1px;
+}
+
+.slider-text {
+	
+	top:50px;
+	left:150px;
+    background: #fff;
+    
+    margin: 2.5rem 0;
+    padding: 1.5rem;
+    max-width: 20rem;
+}
+
+.header-grid-text {
+	right:100px;
+    border-bottom: 2px solid #b22143;
+    color: #b22143;
+    font-size: 1.1rem;
+    margin: 0 1rem 1.5rem -1.5rem;
+    padding: 0 0 0.5rem 1.5rem;
+}
+
+.slider div{
+	padding:1%;
+}
+
+.slider
+{
+	color: #4a4a4a;
+	width:100%;
+	height:auto;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	background-size: cover;
+	background-position: center;
+	margin:0;
+	background-image:url(../poze/galerie2.jpg);
+	text-decoration:none;
+	box-shadow: 4px 4px 4px 0 rgba(0,0,0,0.5);
+    color: inherit;
+    border-radius: 0.25rem;
+}
+.slider:hover{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../poze/galerie2.jpg);
+}
+
+
+img:hover
+{
+	transform:scale(1.1);
+	box-shadow: 2px 2px 18px  white;
+}
+
+.slider2
+{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-items:center;
+	justify-content:center;
+	width:100%;
+	height:auto;
+	color:#FFF8DC;
+	text-decoration:none;
+	background-color:black; 
+	transition: width 2s, height 2s, transform 2s;
+	margin:0;
+}
+.slider2:hover{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(galerie2.jpg);
+	
+}
+
+.grid-item {
+	position:relative;
+	vertical-align:top;
+	max-width:90vw;
+	padding:2%;
+	text-align:center;
+	
+}
+
+.grid-item img{
+	max-width:25vw;
+	width:100%;
+	height:auto;
+	
+}
+.grid-item h2{
+	top:20%;
+	
+	
+}
+
+footer {
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+	height:40vh;
+	background-color: #393c41;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+	background-color: #393c41;
+}
+
+
+footer img{
+	display:inline-block;
+	height:100%;
+}
+
+footer img:hover{
+	transition-duration:2s;
+}
+
+footer div{
+	height:24%;
+}
+
+footer div:hover{
+	transition-duration:2s;
+}

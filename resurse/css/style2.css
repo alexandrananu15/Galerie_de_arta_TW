@@ -1,0 +1,282 @@
+html{
+	scroll-behavior:smooth;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	width:100%;
+	background-image:url(../poze/statui.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+a{
+	color:#b22143;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+a:hover{
+	transition-duration: 0.4s;
+	text-shadow: 2px 2px 5px #b22143;
+	font-size:1.1em;
+	font-weight:bold;
+}
+
+h1#id1{
+	margin:0;
+}
+
+ul{
+	padding:0;
+}
+
+body{
+	margin:0;
+}
+
+h1{
+	padding:1%;
+
+}
+
+h2{
+
+	margin-top:30px;
+	font-family: 'Roboto', sans-serif;
+	margin-left:20px;
+}
+
+.menu{
+	
+	min-height:10vh;
+    display:flex;
+	flex-wrap:wrap;
+    list-style:none;
+    justify-content: flex-start;
+    align-items:center;
+    width: 100%;
+	background-color:#FFF8DC;
+}
+
+
+.menu>li{
+	
+	padding:3vh;
+	color:#b22143;
+	text-decoration:none;
+    cursor: pointer;
+}
+.submenu{
+	font-size:0.6em;
+    display:none;
+    position: absolute;
+}
+.menu>li:hover{
+	transition-duration: 0.4s;
+	color:#DC143C;
+    background-color:#FFF8DC;
+	text-shadow: 2px 2px 5px #DC143C;
+	box-shadow: 5px 10px 18px #DC143C;
+	
+}
+.dropdown{
+	font-size:1.5em;
+	font-weight:bold;
+    padding:0;
+}
+li>h2{
+    /* margin-left:1em;
+    margin-right:1em; */
+}
+.dropdown:hover .submenu{
+	transition-duration: 0.4s;
+    display:block;
+}
+.submenu{
+    background-color:#DC143C;
+    padding:0;
+    margin:0;
+    list-style:none;
+
+}
+.submenu>li{
+
+    height: 100%;
+    padding:1em;
+}
+.submenu>li>a{
+    text-decoration:none;
+    color: #FFF8DC;
+    margin:1em;
+}
+.submenu>li:hover{
+	transition-duration: 0.4s;
+    background-image:linear-gradient(to right, rgba(255, 99, 71, 0), rgba(255, 99, 71, 1));
+	text-shadow: 2px 2px 5px #FFF8DC;
+}
+
+h1
+{
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+	letter-spacing: -1px;
+	color:#b22143;
+	
+}
+
+h1:hover
+{
+	transition-duration: 0.2s;
+	text-shadow: 5px 5px 5px #b22143;
+}
+
+.as {
+	padding:10px;
+	text-align:justify;
+	color:#FFF8DC;
+	font-size: 1.1rem;
+	font-style:italic;
+}
+
+.nav-menu2 {
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	margin: 2.5rem 0;
+	width: 200px;
+	right: 150px;  
+    background: #fff;
+    box-shadow: 4px 4px 4px 0 rgba(0,0,0,0.5);
+    border-radius: 0.25rem;
+    padding: 2.5rem;
+    max-width: 20rem;
+	list-style-type: none;
+	
+}
+
+.al {
+	color:#b22143;
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	text-decoration: none;
+	right:100px;
+    font-size: 1.2rem;
+    margin: 0 1rem 1.5rem -1.5rem;
+    padding: 0 0 0.5rem 1.5rem;
+}
+
+#id3{
+	width:100px;
+	position: absolute;
+	top:170px;
+	right: 25px;  
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;
+	margin: 4px 2px;
+	cursor: pointer;
+    background-color: #b22143;
+	border-radius: 50%;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	
+}
+
+@keyframes example {
+    0% {right: 0px;}
+	50% {right: 600px; background-color:#95edb9; color:black;}
+	100% {right:0px;}
+	
+	
+}
+
+
+.div-mare {
+	padding:3%;
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	color:#4682B4;
+
+}
+
+.div-mare section{
+	width:40%;
+	margin:1.5%;
+	box-shadow:5px 10px 8px #5a65a6;
+	padding:1.5%;
+	
+	
+}
+.div-mare section:hover{
+	transition:1s;
+	box-shadow:5px 10px 18px #96276d;
+}
+
+
+main
+{
+	padding:0;
+	background-color:rgba(236, 247, 247, 1);
+}
+
+
+footer {
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+	height:40vh;
+	background-color: #393c41;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+	background-color: #393c41;
+}
+
+
+footer img{
+	display:inline-block;
+	height:100%;
+}
+
+footer img:hover{
+	transition-duration:2s;
+}
+
+footer div{
+	height:24%;
+}
+
+footer div:hover{
+	transition-duration:2s;
+}
+
+
+@media screen and (max-width: 768px) {
+h2#id3{
+		display:none;
+}
+	
+ul.nav-menu2{
+		position:static;
+}
+	
+footer p:nth-child(1){
+	margin:3%;
+}
+
+.div-class{
+	flex-flow:column;
+	align-items:stretch;
+}
+.div-mare section{
+	width:100%;
+}
+}
