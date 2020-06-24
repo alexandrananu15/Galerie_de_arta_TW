@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "ro" >
+	<head>
+		<title> Galeria de arta La Fontaine </title>
+		<link rel="shortcut icon" type="image/x-icon" href="./poze/favicon.jpg"/>
+		<meta charset = "UTF-8">
+		<meta name = "author" content = "Alexandra Nanu">
+		<meta name = "description" content = " Galerie de arta moderna cu posibilitatea cumpararii tablourilor ">
+		<meta name = "keywords" content = "Klimt, Kandinsky, Dali, Magritte">
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/styledebaza.css"/>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<%- include('../fragmente/header') %>
+		
+		<main>
+			<section> 
+				<div class="slider">
+					<div class="container">
+						<div class="header-grid"> <h2 id = "id2"> Incursiune in lumea artistilor plastici ai secolului XX </h2>
+						</div>
+						<p> Arta este, în esență, cea mai profundă expresie a creativității umane. Pe cât de dificil de definit, pe atât de dificil de evaluat, având în vedere faptul că fiecare artist își alege singur regulile și parametrii de lucru, se poate spune, totuși, că arta este rezultatul alegerii unui mediu, a unui set de reguli pentru folosirea acestui mediu și a unui set de valori ce determină ce anume merită a fi exprimat prin acel mediu pentru a induce un sentiment, o idee, o senzație sau o trăire în modul cel mai eficient posibil pentru acel mediu. </p>
+					</div>
+				</div> 
+			</section>
+			<section> 
+				<div class="slider2">
+					<div class="grid-item"> 
+						<img src = "../poze/fatalamuzeu.jpg" alt = "Manifestul lui Yvan Goll Breton" title = "manifest"  > 
+							<h2 id="id4"> Inspiratie </h2>
+					</div>
+					<div class="grid-item"> 
+						<img src = "../poze/ingenuu.jpg" alt = "Manifestul lui Yvan Goll Breton" title = "manifest" >
+							<h2 id="id5"> Descoperire </h2> 
+					</div>
+					<div class="grid-item"> 
+						<img src = "../poze/inger.jpg" alt = "Manifestul lui Yvan Goll Breton" title = "manifest" > 
+							<h2 id="id6"> Motivatie </h2> 
+					</div>
+					<div class="grid-item"> 
+						<img src = "../poze/cupola.jpg" alt = "Manifestul lui Yvan Goll Breton" title = "manifest"  >
+							<h2> Enclava a istoriei </h2> 
+					</div>
+				</div>
+			</section>
+		</main>
+		<%- include('../fragmente/footer') %>
+	</body>
+</html>

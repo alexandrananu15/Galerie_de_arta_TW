@@ -1,0 +1,15 @@
+{
+	"lastId": 1,
+	"tablouri": [
+		{
+            "id": 0,
+            "titlu": "Fata cu turban",
+            "artist": "Johannes Vermeer",
+            "datare": "circa 1632 – 1675", 
+            "materiale":"ulei pe pânză",
+            "curent_artistic": "Dutch Golden Age painting",
+            "descriere": "Această pictură mai este cunoscută și ca „Mona Lisa Nordului” sau „Mona Lisa olandeză”.",
+            "pictura_apreciata_de_critici": true
+		}
+	]
+}

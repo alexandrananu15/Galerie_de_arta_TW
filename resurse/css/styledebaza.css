@@ -137,8 +137,14 @@ ul{
 
 body{
 	margin:0;
+	background-color: black;
 }
 
+#idp
+{
+	font-size: 1rem;
+	color: #b22143;
+}
 
 #pa{
 	display:inline;
@@ -180,4 +186,18 @@ footer div:hover{
 
 footer p:nth-child(1){
 	margin-top:0.8%;
+}
+
+.afis
+{
+	background-color: white;
+	width: 200px;
+	height: 200px;
+}
+
+.afisTemplate
+{
+	background-color: yellow;
+	width: 200px;
+	height: 200px;
 }
