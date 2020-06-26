@@ -280,3 +280,39 @@ footer p:nth-child(1){
 	width:100%;
 }
 }
+
+.containerTati {
+	width:100%;
+	height:auto;
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+	
+}
+
+.container {
+	/*
+	position:absolute;
+	max-height:50%;
+	right:15%;
+	top:35%;
+	*/
+	margin-right:10%;
+	margin-bottom:2%;
+	font-family: 'Roboto', sans-serif;
+    background: #fff;
+    box-shadow: 4px 4px 4px 0 rgba(0,0,0,0.5);
+    color: inherit;
+    border-radius: 1%;
+    padding: 1%;
+    max-width: 20vw;
+
+}
+
+.header-grid {
+	
+    border-bottom: 2px solid #b22143;
+    color: #b22143;
+    font-size: 1rem;
+    margin: 5%;
+}
