@@ -14,25 +14,36 @@
             },
             {
                   "id": 2,
-                  "titlu": "Fata cu turban",
-                  "artist": "Johannes Vermeer",
-                  "datare": "circa 1632 – 1675", 
-                  "materiale":"ulei pe pânză",
-                  "curent_artistic": "Dutch Golden Age painting",
-                  "descriere": "Această pictură mai este cunoscută și ca „Mona Lisa Nordului” sau „Mona Lisa olandeză”.",
+                  "titlu": "Gioconda",
+                  "artist": "Leonardo da Vinci",
+                  "datare": "1503–1507", 
+                  "materiale":"ulei pe lemn",
+                  "curent_artistic":"High Renaissance",
+                  "descriere": "O femeie cu expresie gânditoare și un surâs abia schițat",
                   "pictura_apreciata_de_critici": true,
                   "pret": 500
             },
             {
                   "id": 1,
-                  "titlu": "Fata cu turban",
-                  "artist": "Johannes Vermeer",
-                  "datare": "circa 1632 – 1675", 
-                  "materiale":"ulei pe pânză",
-                  "curent_artistic": "Dutch Golden Age painting",
-                  "descriere": "Această pictură mai este cunoscută și ca „Mona Lisa Nordului” sau „Mona Lisa olandeză”.",
+                  "titlu": "Sarutul",
+                  "artist": "Gustav Klimt",
+                  "datare": "1907 - 1908", 
+                  "materiale":"pictură în ulei și aur pe pânză",
+                  "curent_artistic": "Art Nouveau",
+                  "descriere": "Punctul culminant al „perioadei de aur”, perioadă în care a pictat o serie de lucrări într-un stil auriu similar acestui tablou",
                   "pictura_apreciata_de_critici": true,
                   "pret": 1300
+            },
+            {
+                  "id": 3,
+                  "titlu": "Tipatul",
+                  "artist": "Edvard Munch",
+                  "datare": "1893 - 1910", 
+                  "materiale":"pictură în ulei și aur pe pânză",
+                  "curent_artistic": "Simbolism",
+                  "descriere": "Atunci am auzit țipătul enorm, infinit al naturii",
+                  "pictura_apreciata_de_critici": true,
+                  "pret": 2300
 		}
 	]
 }

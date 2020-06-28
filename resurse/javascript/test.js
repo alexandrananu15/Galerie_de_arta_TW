@@ -37,8 +37,9 @@ Init();
 
 function Init()
 {
-	if(localStorage.getItem("obJson") === null)
+	if(localStorage.getItem("obJson") == null)
 		Reload();
+	
 	else
 	{
 		obJson = JSON.parse(localStorage.getItem("obJson"));
@@ -55,7 +56,7 @@ function Init()
 			obJson.tablouri.splice(ind, 1);
 			afiseazaJsonTemplate();
 		}
-	}, 15000);
+	}, 1000);
 }
 
 function Reload()
@@ -75,7 +76,7 @@ function Reload()
 	ajaxRequest.onreadystatechange = function() {
 			//daca am primit raspunsul (readyState==4) cu succes (codul status este 200)
 			if (this.readyState == 4 && this.status == 200) {
-					//in proprietatea responseText am contintul fiserului JSON
+					//in proprietatea responseText am continutul fiserului JSON
 					obJson = JSON.parse(this.responseText);
 					afiseazaJsonTemplate();
 			}
@@ -103,12 +104,20 @@ function afiseazaJsonTemplate(tip = 0, filtreazaId = -1) {
 	{
 		obJson.tablouri.sort((a, b) => b.id - a.id);
 	}
-
+	else if(tip == 2)
+	{
+		obJson.tablouri.sort((a, b) => a.pret - b.pret);
+	}
+	else if(tip == 3)
+	{
+		obJson.tablouri.sort((a, b) => b.pret - a.pret);
+	}
+	
 	while(container.hasChildNodes())
 	{
 		container.removeChild(container.firstChild);
 	}
-
+	
 	//parcurg vetorul de tablouri din obJson
 	for(let i=0;i<obJson.tablouri.length;i++){
 		if(filtreazaId == -1 || obJson.tablouri[i].id == filtreazaId)
@@ -133,6 +142,7 @@ function afiseazaJsonTemplate(tip = 0, filtreazaId = -1) {
 				container.removeChild(elem);
 			}
 			elem.appendChild(removeButton);
+			//modific stilul unui element
 			elem.classList.add("templ_tablou");
 			container.appendChild(elem);
 		}
@@ -150,6 +160,16 @@ function SorteazaCrescator()
 function SorteazaDescrescator()
 {
 	afiseazaJsonTemplate(-1);
+}
+
+function CrescatorPret()
+{
+	afiseazaJsonTemplate(2);
+}
+
+function DesCrescatorPret()
+{
+	afiseazaJsonTemplate(3);
 }
 
 function ResetSortare()

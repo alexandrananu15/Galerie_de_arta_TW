@@ -8,9 +8,9 @@
     <meta name="author" content="Alexandra Nanu">
     <meta name="description" content=" Galerie de arta moderna cu posibilitatea cumpararii tablourilor ">
     <meta name="keywords" content="Klimt, Kandinsky, Dali, Magritte">
+    <link rel="stylesheet" type="text/css" href="../css/style_register.css" />
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
     <link rel="stylesheet" type="text/css" href="../css/styledebaza.css" />
-    <link rel="stylesheet" type="text/css" href="../css/style_register.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -24,17 +24,17 @@
                 <div-class="signup-form">
                     <h2 class="form-title">Register</h2>
                     <section>
-                        <form action="/inreg" method="POST" class = "register-form" id = "register-form">
+                        <form action="/inreg" method="POST" class="register-form" id="register-form">
                             <input type="hidden" name="_token" value="NkDSpuMTB8enU3rO5fUWgYHgDjXN8Y1zsHkYXe4o">
                             <div class="nume">
                                 <label for="input_nume">Nume</label>
-                
+
                                 <br />
-                                <input type="text" name="nume" id="input_nume" value required autocomplete="nume"/>
+                                <input type="text" name="nume" id="input_nume" value required autocomplete="nume" />
                             </div>
                             <div class="username">
                                 <label for="input_username">Username</label>
-                                
+
                                 <br />
                                 <input type="text" name="username" id="input_username" />
                             </div>
@@ -42,7 +42,8 @@
                             <div class="email">
                                 <label for="input_email">Email</label>
                                 <br />
-                                <input type="email" name="email" id="input_email" placeholder="E-Mail" value="" required="" autocomplete="email" autofocus="">
+                                <input type="email" name="email" id="input_email" placeholder="E-Mail" value=""
+                                    required="" autocomplete="email" autofocus="">
                             </div>
                             <div class="password">
                                 <label for="input_parola">Parola</label>
@@ -54,7 +55,17 @@
                                 <br />
                                 <input name="artisti_pref" id="input_artists" />
                             </div>
-                            <button type="submit" class= "btn-primary">Inregistrare</button>
+                            <div>
+                                <label for="input_notificari"> Notificari </label> </br>
+                                <select name="subscriptie">
+                                    <option value="Postare" selected> La aparitia fiecarei postari </option>
+                                    <option value="Saptamanal"> Saptamanal </option>
+                                    <option value="Lunar"> Lunar </option>
+                                    <option value="Ocazional"> Ocazional </option>
+                                </select> </br>
+                            </div>
+                            <br />
+                            <button type="submit" class="btn-primarya">Inregistrare</button>
                         </form>
                     </section>
     </main>

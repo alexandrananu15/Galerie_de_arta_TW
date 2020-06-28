@@ -1,3 +1,6 @@
+body{
+    color:black;
+}
 h2 
 {
   display: block;
@@ -84,7 +87,7 @@ input {
     box-sizing: border-box;
 }
 
-.btn-primary {
+.btn-primarya {
     margin-top:20px;
     position: relative;
     width: 100%;

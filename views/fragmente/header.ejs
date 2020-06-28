@@ -15,8 +15,10 @@
                                 <li> <a href="Sculpturi3"> Sculptura </a> </li>
                         </ul>
                     </li>
-                    <li class="dropdown"> <a href="LogIn4"> Comenzi </a> </li>
+                    <li class="dropdown"> <a href="LogIn4"> LogIn </a> </li>
                     <li class="dropdown"> <a href="Curente2"> Curente </a> </li>
+                    <li class="dropdown"> <a href="register"> Inregistreaza-te </a> </li>
+                    <li class="dropdown"> <a href="ex_ajax"> Tablouri </a> </li>
                 </ul>
                 <% if(!locals.username) { %>
                     <li><a href="/LogIn4">Log in</a></li>
@@ -24,7 +26,7 @@
                             <% }
                                 else { %>
 
-                                    <li><a href="/logout">Logout- <%= locals.username %> </a></li>
+                                    <li><a href="/logout">Logout - <%= locals.username %> </a></li>
                                 <% } %>            
             </nav>
             

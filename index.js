@@ -50,7 +50,9 @@ app.get('/', function(req, res) {
             parola:parolaCriptata,
             dataInreg: new Date(),
             rol:"user",
-            artisti_pref: fields.artisti_pref
+			artisti_pref: fields.artisti_pref,
+			notificari: fields.subscriptie
+			
 		}
 		obUseri.lastId += 1;
 		obUseri.useri.push(userNou);
@@ -106,7 +108,8 @@ app.get("/*",function(req, res){
 	//err este null daca randarea s-a terminat cu succes, si contine eroarea in caz contrar (a survenit o eroare)
 	//rezRandare - textul in urma randarii (compilarii din ejs in html)
   console.log(req.url);
-  res.render("html"+req.url, function(err, rezRandare){
+  var numeUtiliz = req.session? (req.session.utilizator? req.session.utilizator.username : null) : null;
+  res.render("html"+req.url, {username: numeUtiliz}, function(err, rezRandare){
 		if (err){
 			if(err.message.includes("Failed to lookup view")){
 				res.status(404).render("html/404");

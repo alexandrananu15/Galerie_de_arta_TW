@@ -1,4 +1,12 @@
+/*
+Niv 2
+4. Timp petrecut pe pagina. Folosind localStorage sa se afiseze pe fiecare pagina (de exemplu in footer) numarul de minute si secunde petrecute in total (pe parcursul tuturor vizitarilor) de un utilizator pe pagina curenta (se va afisa pe fiecare pagina a site-ului). Afisajul se va actualiza la fiecare secunda.. Realizati taskul folosind aceeasi functie pentru toate paginile.
+12. Alert
+13. Nr cuvinte
+*/
+
 window.onload=function(){
+    Init();
     nr_cuvinte_body();
     var date = new Date().getTime();
     setInterval(function () {
@@ -12,7 +20,7 @@ window.onload=function(){
 
         localStorage.setItem(timpItem, timp);
 
-        var minutes = Math.floor((localStorage.getItem(timpItem) % (1000 * 60 * 60)) / (1000 * 60));
+        var minutes = Math.floor((localStorage.getItem(timpItem)) / (1000 * 60));
         var seconds = Math.floor((localStorage.getItem(timpItem) % (1000 * 60)) / 1000);
 
         document.getElementById("timeOnPage").innerHTML = "Timpul petrecut pe pagina: " + minutes + " min " + seconds + " sec";

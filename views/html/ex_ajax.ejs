@@ -19,13 +19,15 @@
             <!-- aici se va afisa continutul neprocesat al JSON-ului -->
             <div class="afisTemplate" id="afisTemplate"> </div>
             <br>
-            <button onclick = "SorteazaCrescator()">Crescator</button>
-            <button onclick = "SorteazaDescrescator()">Descrescator</button>
-            <button onclick = "ResetSortare()">Reset</button>
+            <button onclick = "SorteazaCrescator()" class= "btn-primary">Crescator</button>
+            <button onclick = "SorteazaDescrescator()" class= "btn-primary">Descrescator</button>
+            <button onclick = "ResetSortare()" class= "btn-primary">Reset</button>
+            <button onclick = "CrescatorPret()" class= "btn-primary">Crescator dupa Pret</button>
+            <button onclick = "DesCrescatorPret()" class= "btn-primary">Descrescator dupa Pret</button>
             <br><br>
             <p>Id: <input type = "text" id = "inputId"> </p>
             <p>Medie: <span id = "medie"></span></p>
-            <button onclick = "Filtreaza()">Filtreaza</button>
+            <button onclick = "Filtreaza()" class= "btn-primary">Filtreaza</button>
     </main>
     <%- include('../fragmente/footer') %>
 
