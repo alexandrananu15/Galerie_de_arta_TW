@@ -1,7 +1,7 @@
 # Art Gallery Web Application 🎨
 ### Technologies used:
-#### 🔨 HTML
-#### 🔨 CSS
-#### 🔨 JavaScript
-#### 🔨 Node.js
+##### 🔨 HTML
+##### 🔨 CSS
+##### 🔨 JavaScript
+##### 🔨 Node.js
  
