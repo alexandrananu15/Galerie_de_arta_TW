@@ -1,2 +1,7 @@
-# Galerie_de_arta_TW
+# Art Gallery Web Application 🎨
+### Technologies used:
+#### 🔨 HTML
+#### 🔨 CSS
+#### 🔨 JavaScript
+#### 🔨 Node.js
  
